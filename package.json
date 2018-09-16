@@ -8,11 +8,9 @@
     "npm": "6.4.1"
   },
   "scripts": {
-    "deploy": "gh-pages -d dist"
   },
   "author": "Emma Phommatha",
   "license": "MIT",
   "dependencies": {
-    "gh-pages": "^1.2.0"
   }
 }
