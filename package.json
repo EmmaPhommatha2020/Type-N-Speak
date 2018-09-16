@@ -1,9 +1,12 @@
 {
   "name": "type-n-speak",
-  "homepage": "https://emmadvlpr.github.io/Type-N-Speak",
   "version": "1.0.0",
   "description": "Text to speak and synthesis app using the web speech API",
   "main": "index.js",
+  "engines": {
+    "node": "10.0.0",
+    "npm": "6.4.1"
+  },
   "scripts": {
     "deploy": "gh-pages -d dist"
   },
