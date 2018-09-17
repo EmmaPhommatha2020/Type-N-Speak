@@ -3,23 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "gh-pages": "^1.2.0"
-  },
-  "devDependencies": {},
   "scripts": {
-    "deploy": "gh-pages -b master -d build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/emmadvlpr/Type-N-Speak.git"
-  },
-  "keywords": [],
-  "author": "",
+  "homepage": "https://github.com/emmadvlpr/Type-N-Speak#readme",
+  "author": "Emma Phommatha",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/emmadvlpr/Type-N-Speak/issues"
-  },
-  "homepage": "https://github.com/emmadvlpr/Type-N-Speak"
+  "dependencies": {
+    "gh-pages": "^2.0.0"
+  }
 }
